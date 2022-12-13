@@ -262,3 +262,287 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Sun Dec 11 16:51:35.800564 2022] [php:error] [pid 2160:tid 1272] [client 127.0.0.1:61410] PHP Fatal error:  Uncaught Error: Object of class Payload could not be converted to string in C:\\Apache24\\admin.robertbakery.com\\api\\products\\update.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\admin.robertbakery.com\\api\\products\\update.php on line 13
 [Sun Dec 11 16:57:48.782799 2022] [php:error] [pid 2160:tid 1272] [client 127.0.0.1:61439] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllProducts(), 1 passed in C:\\Apache24\\php-includes\\apis\\api-get-products.php on line 10 and exactly 2 expected in C:\\Apache24\\php-includes\\db-helper.inc.php:39\nStack trace:\n#0 C:\\Apache24\\php-includes\\apis\\api-get-products.php(10): getAllProducts(Object(PDO))\n#1 C:\\Apache24\\robertbakery.com\\api\\products.php(6): getProducts(true)\n#2 {main}\n  thrown in C:\\Apache24\\php-includes\\db-helper.inc.php on line 39
 [Sun Dec 11 16:58:03.716339 2022] [php:warn] [pid 2160:tid 1272] [client 127.0.0.1:61442] PHP Warning:  Undefined variable $products in C:\\Apache24\\php-includes\\db-helper.inc.php on line 55
+[Mon Dec 12 20:48:11.565496 2022] [ssl:warn] [pid 14924:tid 420] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:48:11.565496 2022] [ssl:warn] [pid 14924:tid 420] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:48:11.643603 2022] [ssl:warn] [pid 14924:tid 420] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:48:11.643603 2022] [ssl:warn] [pid 14924:tid 420] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:48:11.659225 2022] [mpm_winnt:notice] [pid 14924:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:48:11.659225 2022] [mpm_winnt:notice] [pid 14924:tid 420] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:48:11.659225 2022] [core:notice] [pid 14924:tid 420] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:48:11.659225 2022] [mpm_winnt:notice] [pid 14924:tid 420] AH00418: Parent: Created child process 13804
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 13804:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:48:12.108057 2022] [ssl:warn] [pid 13804:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:48:12.170568 2022] [ssl:warn] [pid 13804:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:48:12.170568 2022] [ssl:warn] [pid 13804:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:48:12.186166 2022] [mpm_winnt:notice] [pid 13804:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:53:07.129982 2022] [mpm_winnt:notice] [pid 14924:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 20:53:09.152863 2022] [mpm_winnt:notice] [pid 13804:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:53:09.184122 2022] [mpm_winnt:notice] [pid 14924:tid 420] AH00430: Parent: Child process 13804 exited successfully.
+[Mon Dec 12 20:53:11.194597 2022] [ssl:warn] [pid 14528:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:53:11.194597 2022] [ssl:warn] [pid 14528:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:53:11.272707 2022] [ssl:warn] [pid 14528:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:53:11.272707 2022] [ssl:warn] [pid 14528:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:53:11.288356 2022] [mpm_winnt:notice] [pid 14528:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:53:11.288356 2022] [mpm_winnt:notice] [pid 14528:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:53:11.288356 2022] [core:notice] [pid 14528:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:53:11.288356 2022] [mpm_winnt:notice] [pid 14528:tid 392] AH00418: Parent: Created child process 14172
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 14172:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:53:11.742897 2022] [ssl:warn] [pid 14172:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:53:11.820990 2022] [ssl:warn] [pid 14172:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:53:11.820990 2022] [ssl:warn] [pid 14172:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:53:11.836611 2022] [mpm_winnt:notice] [pid 14172:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:55:11.407548 2022] [mpm_winnt:notice] [pid 14528:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 20:55:13.439953 2022] [mpm_winnt:notice] [pid 14172:tid 408] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:55:13.480948 2022] [mpm_winnt:notice] [pid 14528:tid 392] AH00430: Parent: Child process 14172 exited successfully.
+[Mon Dec 12 20:55:15.138774 2022] [ssl:warn] [pid 12308:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:55:15.154366 2022] [ssl:warn] [pid 12308:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:55:15.227095 2022] [ssl:warn] [pid 12308:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:55:15.227095 2022] [ssl:warn] [pid 12308:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:55:15.242745 2022] [mpm_winnt:notice] [pid 12308:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:55:15.242745 2022] [mpm_winnt:notice] [pid 12308:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:55:15.242745 2022] [core:notice] [pid 12308:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:55:15.242745 2022] [mpm_winnt:notice] [pid 12308:tid 392] AH00418: Parent: Created child process 13528
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 13528:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:55:15.910235 2022] [ssl:warn] [pid 13528:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:55:15.988307 2022] [ssl:warn] [pid 13528:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:55:15.988307 2022] [ssl:warn] [pid 13528:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:55:15.988307 2022] [mpm_winnt:notice] [pid 13528:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:56:29.619485 2022] [mpm_winnt:notice] [pid 12308:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 20:56:31.636391 2022] [mpm_winnt:notice] [pid 13528:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:56:31.667959 2022] [mpm_winnt:notice] [pid 12308:tid 392] AH00430: Parent: Child process 13528 exited successfully.
+[Mon Dec 12 20:56:33.775028 2022] [ssl:warn] [pid 14808:tid 392] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:33.775028 2022] [ssl:warn] [pid 14808:tid 392] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:33.775028 2022] [ssl:warn] [pid 14808:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:33.775028 2022] [ssl:warn] [pid 14808:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:56:33.876591 2022] [ssl:warn] [pid 14808:tid 392] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:33.876591 2022] [ssl:warn] [pid 14808:tid 392] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:33.876591 2022] [ssl:warn] [pid 14808:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:33.876591 2022] [ssl:warn] [pid 14808:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:33.876591 2022] [mpm_winnt:notice] [pid 14808:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:56:33.876591 2022] [mpm_winnt:notice] [pid 14808:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:56:33.876591 2022] [core:notice] [pid 14808:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:56:33.892211 2022] [mpm_winnt:notice] [pid 14808:tid 392] AH00418: Parent: Created child process 11728
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 11728:tid 396] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:34.356100 2022] [ssl:warn] [pid 11728:tid 396] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:34.356100 2022] [ssl:warn] [pid 11728:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:34.356100 2022] [ssl:warn] [pid 11728:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:56:34.434201 2022] [ssl:warn] [pid 11728:tid 396] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:34.434201 2022] [ssl:warn] [pid 11728:tid 396] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:34.449788 2022] [ssl:warn] [pid 11728:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:56:34.449788 2022] [ssl:warn] [pid 11728:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:56:34.449788 2022] [mpm_winnt:notice] [pid 11728:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:58:00.056549 2022] [mpm_winnt:notice] [pid 14808:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 20:58:02.073963 2022] [mpm_winnt:notice] [pid 11728:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:58:02.105222 2022] [mpm_winnt:notice] [pid 14808:tid 392] AH00430: Parent: Child process 11728 exited successfully.
+[Mon Dec 12 20:58:04.140392 2022] [ssl:warn] [pid 3284:tid 404] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.140392 2022] [ssl:warn] [pid 3284:tid 404] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.156040 2022] [ssl:warn] [pid 3284:tid 404] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.156040 2022] [ssl:warn] [pid 3284:tid 404] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:58:04.230825 2022] [ssl:warn] [pid 3284:tid 404] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.230825 2022] [ssl:warn] [pid 3284:tid 404] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.246445 2022] [ssl:warn] [pid 3284:tid 404] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.246445 2022] [ssl:warn] [pid 3284:tid 404] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.246445 2022] [mpm_winnt:notice] [pid 3284:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:58:04.246445 2022] [mpm_winnt:notice] [pid 3284:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:58:04.246445 2022] [core:notice] [pid 3284:tid 404] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:58:04.262066 2022] [mpm_winnt:notice] [pid 3284:tid 404] AH00418: Parent: Created child process 15080
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 15080:tid 412] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.734607 2022] [ssl:warn] [pid 15080:tid 412] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.734607 2022] [ssl:warn] [pid 15080:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.734607 2022] [ssl:warn] [pid 15080:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:58:04.812709 2022] [ssl:warn] [pid 15080:tid 412] AH01906: robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.812709 2022] [ssl:warn] [pid 15080:tid 412] AH01909: robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.828360 2022] [ssl:warn] [pid 15080:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:58:04.828360 2022] [ssl:warn] [pid 15080:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:58:04.843954 2022] [mpm_winnt:notice] [pid 15080:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:59:23.858519 2022] [mpm_winnt:notice] [pid 3284:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 20:59:25.884196 2022] [mpm_winnt:notice] [pid 15080:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:59:25.930751 2022] [mpm_winnt:notice] [pid 3284:tid 404] AH00430: Parent: Child process 15080 exited successfully.
+[Mon Dec 12 20:59:27.651625 2022] [ssl:warn] [pid 11640:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:59:27.651625 2022] [ssl:warn] [pid 11640:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:59:27.745344 2022] [ssl:warn] [pid 11640:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:59:27.745344 2022] [ssl:warn] [pid 11640:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:59:27.745344 2022] [mpm_winnt:notice] [pid 11640:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 20:59:27.745344 2022] [mpm_winnt:notice] [pid 11640:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:59:27.745344 2022] [core:notice] [pid 11640:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:59:27.745344 2022] [mpm_winnt:notice] [pid 11640:tid 392] AH00418: Parent: Created child process 9268
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 9268:tid 428] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:59:28.436889 2022] [ssl:warn] [pid 9268:tid 428] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 20:59:28.530614 2022] [ssl:warn] [pid 9268:tid 428] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 20:59:28.530614 2022] [ssl:warn] [pid 9268:tid 428] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 20:59:28.530614 2022] [mpm_winnt:notice] [pid 9268:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:01:47.290737 2022] [mpm_winnt:notice] [pid 11640:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 21:01:49.321792 2022] [mpm_winnt:notice] [pid 9268:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:01:49.375734 2022] [mpm_winnt:notice] [pid 11640:tid 392] AH00430: Parent: Child process 9268 exited successfully.
+[Mon Dec 12 21:01:50.978929 2022] [ssl:warn] [pid 5284:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:01:50.978929 2022] [ssl:warn] [pid 5284:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:01:51.074948 2022] [ssl:warn] [pid 5284:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:01:51.074948 2022] [ssl:warn] [pid 5284:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:01:51.074948 2022] [mpm_winnt:notice] [pid 5284:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:01:51.074948 2022] [mpm_winnt:notice] [pid 5284:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:01:51.074948 2022] [core:notice] [pid 5284:tid 408] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:01:51.074948 2022] [mpm_winnt:notice] [pid 5284:tid 408] AH00418: Parent: Created child process 7976
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 7976:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:01:51.591006 2022] [ssl:warn] [pid 7976:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:01:51.669114 2022] [ssl:warn] [pid 7976:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:01:51.669114 2022] [ssl:warn] [pid 7976:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:01:51.669114 2022] [mpm_winnt:notice] [pid 7976:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:04:08.594433 2022] [mpm_winnt:notice] [pid 5284:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 21:04:10.597991 2022] [mpm_winnt:notice] [pid 7976:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:04:10.636538 2022] [mpm_winnt:notice] [pid 5284:tid 408] AH00430: Parent: Child process 7976 exited successfully.
+[Mon Dec 12 21:04:12.168670 2022] [ssl:warn] [pid 1000:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:04:12.168670 2022] [ssl:warn] [pid 1000:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:04:12.267890 2022] [ssl:warn] [pid 1000:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:04:12.267890 2022] [ssl:warn] [pid 1000:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:04:12.283515 2022] [mpm_winnt:notice] [pid 1000:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:04:12.283515 2022] [mpm_winnt:notice] [pid 1000:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:04:12.283515 2022] [core:notice] [pid 1000:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:04:12.283515 2022] [mpm_winnt:notice] [pid 1000:tid 392] AH00418: Parent: Created child process 14576
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 14576:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:04:12.815000 2022] [ssl:warn] [pid 14576:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:04:12.908730 2022] [ssl:warn] [pid 14576:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:04:12.908730 2022] [ssl:warn] [pid 14576:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:04:12.908730 2022] [mpm_winnt:notice] [pid 14576:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:04:21.805214 2022] [php:error] [pid 14576:tid 1280] [client 127.0.0.1:62105] script 'C:/Apache24/admin.robertbakery.com/api/products.php' not found or unable to stat, referer: http://admin.robertbakery.com/
+[Mon Dec 12 21:05:01.533885 2022] [mpm_winnt:notice] [pid 1000:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Mon Dec 12 21:05:03.551284 2022] [mpm_winnt:notice] [pid 14576:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:05:03.598404 2022] [mpm_winnt:notice] [pid 1000:tid 392] AH00430: Parent: Child process 14576 exited successfully.
+[Mon Dec 12 21:05:06.372929 2022] [ssl:warn] [pid 8508:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:05:06.388549 2022] [ssl:warn] [pid 8508:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:05:06.456846 2022] [ssl:warn] [pid 8508:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:05:06.456846 2022] [ssl:warn] [pid 8508:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:05:06.472442 2022] [mpm_winnt:notice] [pid 8508:tid 396] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:05:06.472442 2022] [mpm_winnt:notice] [pid 8508:tid 396] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:05:06.472442 2022] [core:notice] [pid 8508:tid 396] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:05:06.472442 2022] [mpm_winnt:notice] [pid 8508:tid 396] AH00418: Parent: Created child process 976
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 976:tid 436] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:05:06.923410 2022] [ssl:warn] [pid 976:tid 436] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:05:07.032770 2022] [ssl:warn] [pid 976:tid 436] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:05:07.032770 2022] [ssl:warn] [pid 976:tid 436] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:05:07.032770 2022] [mpm_winnt:notice] [pid 976:tid 436] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:05:29.890694 2022] [mpm_winnt:notice] [pid 8508:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Mon Dec 12 21:05:59.900160 2022] [mpm_winnt:notice] [pid 8508:tid 396] AH00431: Parent: Forcing termination of child process 976
+[Mon Dec 12 21:06:17.622766 2022] [ssl:warn] [pid 2544:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:06:17.622766 2022] [ssl:warn] [pid 2544:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:06:17.701135 2022] [ssl:warn] [pid 2544:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:06:17.701135 2022] [ssl:warn] [pid 2544:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:06:17.716755 2022] [mpm_winnt:notice] [pid 2544:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:06:17.716755 2022] [mpm_winnt:notice] [pid 2544:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:06:17.716755 2022] [core:notice] [pid 2544:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:06:17.716755 2022] [mpm_winnt:notice] [pid 2544:tid 392] AH00418: Parent: Created child process 1512
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 1512:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:06:18.163075 2022] [ssl:warn] [pid 1512:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:06:18.256834 2022] [ssl:warn] [pid 1512:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:06:18.256834 2022] [ssl:warn] [pid 1512:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:06:18.272443 2022] [mpm_winnt:notice] [pid 1512:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:07:22.501087 2022] [mpm_winnt:notice] [pid 2544:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 21:07:24.518322 2022] [mpm_winnt:notice] [pid 1512:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:07:24.533896 2022] [mpm_winnt:notice] [pid 2544:tid 392] AH00430: Parent: Child process 1512 exited successfully.
+[Mon Dec 12 21:08:29.382530 2022] [ssl:warn] [pid 15048:tid 416] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:08:29.382530 2022] [ssl:warn] [pid 15048:tid 416] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:08:29.460639 2022] [ssl:warn] [pid 15048:tid 416] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:08:29.476257 2022] [ssl:warn] [pid 15048:tid 416] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:08:29.476257 2022] [mpm_winnt:notice] [pid 15048:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:08:29.476257 2022] [mpm_winnt:notice] [pid 15048:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:08:29.476257 2022] [core:notice] [pid 15048:tid 416] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:08:29.476257 2022] [mpm_winnt:notice] [pid 15048:tid 416] AH00418: Parent: Created child process 2624
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 2624:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:08:29.944594 2022] [ssl:warn] [pid 2624:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:08:30.022729 2022] [ssl:warn] [pid 2624:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:08:30.022729 2022] [ssl:warn] [pid 2624:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:08:30.038323 2022] [mpm_winnt:notice] [pid 2624:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:09:59.943730 2022] [mpm_winnt:notice] [pid 15048:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 21:10:01.966465 2022] [mpm_winnt:notice] [pid 2624:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:10:02.009023 2022] [mpm_winnt:notice] [pid 15048:tid 416] AH00430: Parent: Child process 2624 exited successfully.
+[Mon Dec 12 21:10:03.902530 2022] [ssl:warn] [pid 4804:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:10:03.902530 2022] [ssl:warn] [pid 4804:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:10:03.979385 2022] [ssl:warn] [pid 4804:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:10:03.979385 2022] [ssl:warn] [pid 4804:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:10:03.995007 2022] [mpm_winnt:notice] [pid 4804:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:10:03.995007 2022] [mpm_winnt:notice] [pid 4804:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:10:03.995007 2022] [core:notice] [pid 4804:tid 400] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:10:03.995007 2022] [mpm_winnt:notice] [pid 4804:tid 400] AH00418: Parent: Created child process 9356
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+022] [ssl:warn] [pid 9356:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:10:04.512189 2022] [ssl:warn] [pid 9356:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:10:04.590299 2022] [ssl:warn] [pid 9356:tid 412] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:10:04.590299 2022] [ssl:warn] [pid 9356:tid 412] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:10:04.605920 2022] [mpm_winnt:notice] [pid 9356:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:10:54.688688 2022] [mpm_winnt:notice] [pid 4804:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Mon Dec 12 21:11:16.089046 2022] [mpm_winnt:notice] [pid 9356:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:11:16.104611 2022] [mpm_winnt:notice] [pid 4804:tid 400] AH00430: Parent: Child process 9356 exited successfully.
+[Mon Dec 12 21:11:39.381361 2022] [ssl:warn] [pid 13788:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:11:39.381361 2022] [ssl:warn] [pid 13788:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:11:39.462675 2022] [ssl:warn] [pid 13788:tid 392] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:11:39.462675 2022] [ssl:warn] [pid 13788:tid 392] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 12 21:11:39.478329 2022] [mpm_winnt:notice] [pid 13788:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Mon Dec 12 21:11:39.478329 2022] [mpm_winnt:notice] [pid 13788:tid 392] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:11:39.478329 2022] [core:notice] [pid 13788:tid 392] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:11:39.478329 2022] [mpm_winnt:notice] [pid 13788:tid 392] AH00418: Parent: Created child process 13160
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:11:40.040391 2022] [ssl:warn] [pid 13160:tid 404] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Dec 12 21:11:40.040391 2022] [ssl:warn] [pid 13160:tid 404] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::8a2b:17a5:918:b5b. Set the 'ServerName' directive globally to suppress this message

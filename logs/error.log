@@ -728,3 +728,146 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 Apache server interrupted...
 [Mon Dec 12 22:03:17.800356 2022] [mpm_winnt:notice] [pid 13152:tid 396] AH00364: Child: All worker threads have exited.
 [Mon Dec 12 22:03:17.844899 2022] [mpm_winnt:notice] [pid 7900:tid 416] AH00430: Parent: Child process 13152 exited successfully.
+[Tue Dec 13 20:12:34.470655 2022] [ssl:warn] [pid 9256:tid 436] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:12:34.470655 2022] [ssl:warn] [pid 9256:tid 436] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:12:36.194879 2022] [ssl:warn] [pid 9256:tid 436] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:12:36.194879 2022] [ssl:warn] [pid 9256:tid 436] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:12:36.210539 2022] [mpm_winnt:notice] [pid 9256:tid 436] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:12:36.210539 2022] [mpm_winnt:notice] [pid 9256:tid 436] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:12:36.210539 2022] [core:notice] [pid 9256:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:12:36.210539 2022] [mpm_winnt:notice] [pid 9256:tid 436] AH00418: Parent: Created child process 11428
+[Tue Dec 13 20:12:36.806805 2022] [ssl:warn] [pid 11428:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:12:36.806805 2022] [ssl:warn] [pid 11428:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:12:36.884914 2022] [ssl:warn] [pid 11428:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:12:36.884914 2022] [ssl:warn] [pid 11428:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:12:36.900532 2022] [mpm_winnt:notice] [pid 11428:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 13 20:15:30.546986 2022] [mpm_winnt:notice] [pid 9256:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:15:32.564857 2022] [mpm_winnt:notice] [pid 11428:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:15:32.607412 2022] [mpm_winnt:notice] [pid 9256:tid 436] AH00430: Parent: Child process 11428 exited successfully.
+[Tue Dec 13 20:15:33.520664 2022] [ssl:warn] [pid 8036:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:15:33.520664 2022] [ssl:warn] [pid 8036:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:15:33.626062 2022] [ssl:warn] [pid 8036:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:15:33.626062 2022] [ssl:warn] [pid 8036:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:15:33.641654 2022] [mpm_winnt:notice] [pid 8036:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:15:33.641654 2022] [mpm_winnt:notice] [pid 8036:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:15:33.641654 2022] [core:notice] [pid 8036:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:15:33.641654 2022] [mpm_winnt:notice] [pid 8036:tid 400] AH00418: Parent: Created child process 14404
+[Tue Dec 13 20:15:34.098719 2022] [ssl:warn] [pid 14404:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:15:34.098719 2022] [ssl:warn] [pid 14404:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:15:34.176833 2022] [ssl:warn] [pid 14404:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:15:34.176833 2022] [ssl:warn] [pid 14404:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:15:34.192466 2022] [mpm_winnt:notice] [pid 14404:tid 408] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:27:17.903378 2022] [mpm_winnt:notice] [pid 8036:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:27:19.925828 2022] [mpm_winnt:notice] [pid 14404:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:27:19.957123 2022] [mpm_winnt:notice] [pid 8036:tid 400] AH00430: Parent: Child process 14404 exited successfully.
+[Tue Dec 13 20:27:22.036890 2022] [ssl:warn] [pid 14604:tid 384] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:27:22.036890 2022] [ssl:warn] [pid 14604:tid 384] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:27:22.152069 2022] [ssl:warn] [pid 14604:tid 384] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:27:22.152069 2022] [ssl:warn] [pid 14604:tid 384] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:27:22.152069 2022] [mpm_winnt:notice] [pid 14604:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:27:22.152069 2022] [mpm_winnt:notice] [pid 14604:tid 384] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:27:22.152069 2022] [core:notice] [pid 14604:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:27:22.152069 2022] [mpm_winnt:notice] [pid 14604:tid 384] AH00418: Parent: Created child process 5576
+[Tue Dec 13 20:27:22.613594 2022] [ssl:warn] [pid 5576:tid 452] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:27:22.613594 2022] [ssl:warn] [pid 5576:tid 452] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:27:22.691705 2022] [ssl:warn] [pid 5576:tid 452] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:27:22.691705 2022] [ssl:warn] [pid 5576:tid 452] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:27:22.707356 2022] [mpm_winnt:notice] [pid 5576:tid 452] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:32:04.277274 2022] [mpm_winnt:notice] [pid 14604:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:32:06.314740 2022] [mpm_winnt:notice] [pid 5576:tid 452] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:32:06.358204 2022] [mpm_winnt:notice] [pid 14604:tid 384] AH00430: Parent: Child process 5576 exited successfully.
+[Tue Dec 13 20:32:08.972549 2022] [ssl:warn] [pid 2056:tid 388] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:32:08.972549 2022] [ssl:warn] [pid 2056:tid 388] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:32:09.066285 2022] [ssl:warn] [pid 2056:tid 388] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:32:09.066285 2022] [ssl:warn] [pid 2056:tid 388] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:32:09.066285 2022] [mpm_winnt:notice] [pid 2056:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:32:09.066285 2022] [mpm_winnt:notice] [pid 2056:tid 388] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:32:09.066285 2022] [core:notice] [pid 2056:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:32:09.081877 2022] [mpm_winnt:notice] [pid 2056:tid 388] AH00418: Parent: Created child process 9772
+[Tue Dec 13 20:32:09.542963 2022] [ssl:warn] [pid 9772:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:32:09.542963 2022] [ssl:warn] [pid 9772:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:32:09.620887 2022] [ssl:warn] [pid 9772:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:32:09.620887 2022] [ssl:warn] [pid 9772:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:32:09.636540 2022] [mpm_winnt:notice] [pid 9772:tid 400] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:33:46.001836 2022] [mpm_winnt:notice] [pid 2056:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:33:48.048513 2022] [mpm_winnt:notice] [pid 9772:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:33:48.079824 2022] [mpm_winnt:notice] [pid 2056:tid 388] AH00430: Parent: Child process 9772 exited successfully.
+[Tue Dec 13 20:33:48.985501 2022] [ssl:warn] [pid 13896:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:33:48.985501 2022] [ssl:warn] [pid 13896:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:33:49.106380 2022] [ssl:warn] [pid 13896:tid 396] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:33:49.106380 2022] [ssl:warn] [pid 13896:tid 396] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:33:49.106380 2022] [mpm_winnt:notice] [pid 13896:tid 396] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:33:49.106380 2022] [mpm_winnt:notice] [pid 13896:tid 396] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:33:49.106380 2022] [core:notice] [pid 13896:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:33:49.122002 2022] [mpm_winnt:notice] [pid 13896:tid 396] AH00418: Parent: Created child process 644
+[Tue Dec 13 20:33:49.584288 2022] [ssl:warn] [pid 644:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:33:49.584288 2022] [ssl:warn] [pid 644:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:33:49.678051 2022] [ssl:warn] [pid 644:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:33:49.678051 2022] [ssl:warn] [pid 644:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:33:49.678051 2022] [mpm_winnt:notice] [pid 644:tid 408] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:41:20.234606 2022] [mpm_winnt:notice] [pid 13896:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:41:22.257384 2022] [mpm_winnt:notice] [pid 644:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:41:22.329670 2022] [mpm_winnt:notice] [pid 13896:tid 396] AH00430: Parent: Child process 644 exited successfully.
+[Tue Dec 13 20:41:23.287900 2022] [ssl:warn] [pid 6624:tid 384] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:41:23.303524 2022] [ssl:warn] [pid 6624:tid 384] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:41:23.381627 2022] [ssl:warn] [pid 6624:tid 384] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:41:23.381627 2022] [ssl:warn] [pid 6624:tid 384] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:41:23.397294 2022] [mpm_winnt:notice] [pid 6624:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:41:23.397294 2022] [mpm_winnt:notice] [pid 6624:tid 384] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:41:23.397294 2022] [core:notice] [pid 6624:tid 384] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:41:23.397294 2022] [mpm_winnt:notice] [pid 6624:tid 384] AH00418: Parent: Created child process 3168
+[Tue Dec 13 20:41:23.988963 2022] [ssl:warn] [pid 3168:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:41:23.988963 2022] [ssl:warn] [pid 3168:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:41:24.082699 2022] [ssl:warn] [pid 3168:tid 400] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:41:24.082699 2022] [ssl:warn] [pid 3168:tid 400] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:41:24.082699 2022] [mpm_winnt:notice] [pid 3168:tid 400] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:42:46.218696 2022] [mpm_winnt:notice] [pid 6624:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:42:48.249735 2022] [mpm_winnt:notice] [pid 3168:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:42:48.305916 2022] [mpm_winnt:notice] [pid 6624:tid 384] AH00430: Parent: Child process 3168 exited successfully.
+[Tue Dec 13 20:45:48.455383 2022] [ssl:warn] [pid 5944:tid 424] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:45:48.455383 2022] [ssl:warn] [pid 5944:tid 424] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:45:48.564732 2022] [ssl:warn] [pid 5944:tid 424] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:45:48.564732 2022] [ssl:warn] [pid 5944:tid 424] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:45:48.580350 2022] [mpm_winnt:notice] [pid 5944:tid 424] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:45:48.580350 2022] [mpm_winnt:notice] [pid 5944:tid 424] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:45:48.580350 2022] [core:notice] [pid 5944:tid 424] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:45:48.580350 2022] [mpm_winnt:notice] [pid 5944:tid 424] AH00418: Parent: Created child process 2428
+Apache server interrupted...
+022] [ssl:warn] [pid 2428:tid 448] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:45:49.423693 2022] [ssl:warn] [pid 2428:tid 448] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:45:49.533043 2022] [ssl:warn] [pid 2428:tid 448] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:45:49.533043 2022] [ssl:warn] [pid 2428:tid 448] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:45:49.548663 2022] [mpm_winnt:notice] [pid 2428:tid 448] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:46:24.772785 2022] [mpm_winnt:notice] [pid 5944:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:46:26.795925 2022] [mpm_winnt:notice] [pid 2428:tid 448] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:46:26.842599 2022] [mpm_winnt:notice] [pid 5944:tid 424] AH00430: Parent: Child process 2428 exited successfully.
+[Tue Dec 13 20:46:28.831208 2022] [ssl:warn] [pid 15232:tid 404] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:28.831208 2022] [ssl:warn] [pid 15232:tid 404] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:28.960234 2022] [ssl:warn] [pid 15232:tid 404] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:28.960234 2022] [ssl:warn] [pid 15232:tid 404] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:28.960234 2022] [mpm_winnt:notice] [pid 15232:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:46:28.960234 2022] [mpm_winnt:notice] [pid 15232:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:46:28.960234 2022] [core:notice] [pid 15232:tid 404] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:46:28.960234 2022] [mpm_winnt:notice] [pid 15232:tid 404] AH00418: Parent: Created child process 2864
+Apache server interrupted...
+022] [ssl:warn] [pid 2864:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:29.702088 2022] [ssl:warn] [pid 2864:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:29.811472 2022] [ssl:warn] [pid 2864:tid 408] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:29.811472 2022] [ssl:warn] [pid 2864:tid 408] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:29.827065 2022] [mpm_winnt:notice] [pid 2864:tid 408] AH00354: Child: Starting 150 worker threads.
+[Tue Dec 13 20:46:54.382411 2022] [mpm_winnt:notice] [pid 15232:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 13 20:46:56.416759 2022] [mpm_winnt:notice] [pid 2864:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Dec 13 20:46:56.463305 2022] [mpm_winnt:notice] [pid 15232:tid 404] AH00430: Parent: Child process 2864 exited successfully.
+[Tue Dec 13 20:46:58.587491 2022] [ssl:warn] [pid 14496:tid 420] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:58.603144 2022] [ssl:warn] [pid 14496:tid 420] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:58.696867 2022] [ssl:warn] [pid 14496:tid 420] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:58.696867 2022] [ssl:warn] [pid 14496:tid 420] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:58.712490 2022] [mpm_winnt:notice] [pid 14496:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.2.0 OpenSSL/3.0.7 configured -- resuming normal operations
+[Tue Dec 13 20:46:58.712490 2022] [mpm_winnt:notice] [pid 14496:tid 420] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Dec 13 20:46:58.712490 2022] [core:notice] [pid 14496:tid 420] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Tue Dec 13 20:46:58.712490 2022] [mpm_winnt:notice] [pid 14496:tid 420] AH00418: Parent: Created child process 14692
+[Tue Dec 13 20:46:59.581297 2022] [ssl:warn] [pid 14692:tid 416] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:59.581297 2022] [ssl:warn] [pid 14692:tid 416] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:59.706092 2022] [ssl:warn] [pid 14692:tid 416] AH01906: admin.robertbakery.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Dec 13 20:46:59.706092 2022] [ssl:warn] [pid 14692:tid 416] AH01909: admin.robertbakery.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 13 20:46:59.706092 2022] [mpm_winnt:notice] [pid 14692:tid 416] AH00354: Child: Starting 150 worker threads.
